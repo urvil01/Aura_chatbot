@@ -191,7 +191,7 @@ Users can:
 
 ## 👨‍💻 Author
 
-### Urvil Gajjar
+### Urvil Dudakiya
 
 Aspiring Python Developer and AI Engineer passionate about building AI-powered applications using modern Large Language Models (LLMs), Agentic AI, and Generative AI technologies.
 
