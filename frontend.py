@@ -21,7 +21,7 @@ allow_web_search = st.checkbox("Allow web search")
 
 user_query = st.text_area("Define your AI Agent",height = 70,placeholder="Ask Anything!")
 
-API_URL="http://127.0.0.1:9999/chat"
+API_URL="https://aura-chatbot-sctb.onrender.com/chat"
 if st.button("Ask Agent!"):
     if user_query.strip():
         payload = {
