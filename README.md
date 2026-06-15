@@ -1,101 +1,206 @@
-# Aura_chatbot
+# 🤖 Aura Chatbot Agent
 
-Aura Chatbot Agent is a Python-based chatbot application that utilizes FastAPI, Streamlit, LangGraph, LangChain, Groq, OpenAI, and Tavily Search.
+Aura Chatbot Agent is an AI-powered chatbot application built with **Python, FastAPI, Streamlit, LangGraph, LangChain, Groq, OpenAI, and Tavily Search**.
 
-This app helps users build custom AI agents with unique system prompts, model choices, and web search capabilities.
+The platform allows users to create custom AI agents by defining system prompts, selecting AI models, and enabling real-time web search capabilities.
 
-✨ Features
-Creating Custom AI Agents
-Groq and OpenAI Models Integration
-Real-time Web Search Capabilities using Tavily
-FastAPI Server
-Streamlit Client UI
-LangGraph Agent System
-Dynamic Prompting
-Interactive UI
-Cloud-Deployable Application
-🛠️ Technologies Used
-Frontend Technologies
-Streamlit
-Backend Technologies
-FastAPI
-Uvicorn Server
-Agent AI & Development Tools
-LangGraph
-LangChain
-Models Used
-Groq (Llama 3.3 70B)
-OpenAI GPT Models
-Web Search Engine
-Tavily Search API
-📂 Project Directory
+---
+
+## ✨ Features
+
+* 🎯 Custom AI Agent Creation
+* 🤖 Groq & OpenAI Model Integration
+* 🌐 Real-Time Web Search with Tavily
+* ⚡ FastAPI Backend
+* 🎨 Interactive Streamlit User Interface
+* 🔄 LangGraph Agent Workflow
+* 📝 Dynamic System Prompt Support
+* ☁️ Cloud Deployment Ready
+* 🚀 Fast and Scalable Architecture
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Streamlit
+
+### Backend
+
+* FastAPI
+* Uvicorn
+
+### AI & Agent Framework
+
+* LangGraph
+* LangChain
+
+### Models
+
+* Groq (Llama 3.3 70B Versatile)
+* OpenAI GPT Models
+
+### Search Tool
+
+* Tavily Search API
+
+---
+
+## 📂 Project Structure
+
+```bash
 Aura_Chatbot/
 │
-├── ai_agent.py   # agent logic implementation
-├── backend.py    # FastAPI backend development
-├── frontend.py   # Streamlit front-end UI design
+├── ai_agent.py        # AI Agent Logic
+├── backend.py         # FastAPI Backend
+├── frontend.py        # Streamlit Frontend
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-🚀 How It Works
-The user inputs their own system prompt.
-The user chooses an AI provider model.
-The user enters the query.
-FastAPI forwards the request to the AI Agent.
-LangGraph runs the agent process flow.
-Optional Tavily search fetches live data.
-The response is generated and shown in Streamlit.
-⚙️ Installation
-Clone Repo
-git clone https://github.com/your-username/aura-chatbot.git
-cd aura-chatbot
-Create Virtual Env
+```
+
+---
+
+## 🚀 How It Works
+
+1. User enters a custom system prompt.
+2. User selects an AI provider and model.
+3. User submits a query.
+4. FastAPI sends the request to the AI Agent.
+5. LangGraph executes the agent workflow.
+6. Tavily Search retrieves live information (optional).
+7. The generated response is displayed in the Streamlit UI.
+
+---
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/urvil01/aura_chatbot.git
+cd aura_chatbot
+```
+
+### Create a Virtual Environment
+
+```bash
 python -m venv venv
-Activate Virtual Env
+```
 
-For Windows:
+### Activate the Virtual Environment
 
+#### Windows
+
+```bash
 venv\Scripts\activate
+```
 
-For Mac/Linux:
+#### Linux / macOS
 
+```bash
 source venv/bin/activate
-Install Deps
+```
+
+### Install Dependencies
+
+```bash
 pip install -r requirements.txt
-🔑 Environment Vars
+```
 
-Create a .env file in the root folder:
+---
 
+## 🔑 Environment Variables
+
+Create a `.env` file in the project root directory:
+
+```env
 GROQ_API_KEY=your_groq_api_key
 OPENAI_API_KEY=your_openai_api_key
 TAVILY_API_KEY=your_tavily_api_key
-▶️ Backend Execution
+```
+
+---
+
+## ▶️ Run the Backend
+
+```bash
 python backend.py
+```
 
 Backend URL:
 
+```text
 http://127.0.0.1:9999
-▶️ Frontend Execution
+```
+
+---
+
+## ▶️ Run the Frontend
+
+```bash
 streamlit run frontend.py
+```
+
+Frontend URL:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## 🌐 Deployment
+
+### Backend Deployment
+
+* Render
+
+### Frontend Deployment
+
+* Streamlit Community Cloud
+
+---
+
+## 📸 Application Capabilities
+
 Users can:
 
-Create customized AI avatars 
-Pose questions 
-Activate web searches 
-Toggle AI model selection 
-Get instant intelligent replies
-🎯 Features for the Future
-Chat History and Recall 
-Multi-Agents Processes 
-User Authentication 
-Speech Input/Output Support 
-File Upload 
-Conversation Export 
-Vector Database Connection
-👨‍💻 Author
+* Create custom AI personas
+* Ask questions using natural language
+* Enable real-time web search
+* Switch between Groq and OpenAI models
+* Receive intelligent AI-generated responses
+* Customize chatbot behavior using system prompts
 
-Urvil Dudakiya
+---
 
-Passionate Python Developer and Artificial Intelligence Engineer who aims to create AI-enabled applications utilizing latest LLM technologies.
+## 🎯 Future Enhancements
 
-If you liked this project please ⭐ it on GitHub.
+* Chat Memory & Conversation History
+* Multi-Agent Workflows
+* User Authentication System
+* Voice Input & Output
+* File Upload & Analysis
+* Conversation Export
+* Vector Database Integration
+* RAG (Retrieval-Augmented Generation)
+
+---
+
+## 👨‍💻 Author
+
+### Urvil Gajjar
+
+Aspiring Python Developer and AI Engineer passionate about building AI-powered applications using modern Large Language Models (LLMs), Agentic AI, and Generative AI technologies.
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub. Your support is appreciated!
+
+---
+
+### Built with ❤️ using Python, FastAPI, Streamlit, LangGraph, LangChain, Groq, and OpenAI.
