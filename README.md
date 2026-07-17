@@ -181,8 +181,6 @@ Users can:
 * Chat Memory & Conversation History
 * Multi-Agent Workflows
 * User Authentication System
-* Voice Input & Output
-* File Upload & Analysis
 * Conversation Export
 * Vector Database Integration
 * RAG (Retrieval-Augmented Generation)
